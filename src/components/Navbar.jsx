@@ -43,12 +43,12 @@ const Navbar = () => {
 
         <ul className="hidden md:flex gap-12 z-10 cursor-pointer">
           <li className="cursor-pointer hover:text-orange-500">
-            <Link to="skills" smooth={true} offset={50} duration={500}>
+            <Link to="about" smooth={true} offset={50} duration={500}>
               About Us
             </Link>
           </li>
           <li className="cursor-pointer hover:text-orange-500">
-            <Link to="portfolio" smooth={true} offset={50} duration={500}>
+            <Link to="why" smooth={true} offset={50} duration={500}>
               Why Us
             </Link>
           </li>

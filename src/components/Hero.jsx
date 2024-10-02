@@ -72,7 +72,7 @@ const Hero = () => {
                 <AiOutlineLinkedin />
               </motion.a>
 
-              <motion.a whileHover={{ scale: 1.2 }} href="#" className="text-green-500">
+              <motion.a whileHover={{ scale: 1.2 }} href="https://wa.me/9835691200" target="_blank" className="text-green-500">
                 <AiOutlineWhatsApp />
               </motion.a>
             </div>

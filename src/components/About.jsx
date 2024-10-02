@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div>
+    <div id="about">
       <h1 className="text-center text-3xl mt-8 font-bold mb-8">About <span className="text-orange-500">Us</span></h1>
       <p>
         Sweto'h Coconut Sugar is nature’s sweet gift, handcrafted for a

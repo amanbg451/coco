@@ -1,6 +1,6 @@
 export default function Why() {
   return (
-    <div>
+    <div id="why">
        <h1 className="text-center text-3xl mt-8 font-bold mb-8">Why <span className="text-orange-500">Us</span></h1>
       <p>100% Natural: No chemicals, additives, or artificial flavors.</p>
       <p>

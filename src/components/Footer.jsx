@@ -1,4 +1,6 @@
+import { Link } from "react-scroll";
 import logo from "../assets/logo.png";
+import privacypdf from "../pdf/privacy.pdf";
 const Footer = () => {
   return (
     <>
@@ -16,24 +18,19 @@ const Footer = () => {
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
               <li>
-                <a href="#" className="hover:underline me-4 md:me-6">
+                <Link to="about" className="hover:underline me-4 md:me-6 cursor-pointer">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:underline me-4 md:me-6">
+                <a href={privacypdf} target="_blank" className="hover:underline me-4 md:me-6 cursor-pointer">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline me-4 md:me-6">
-                  Licensing
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
+                <Link to="contact" className="hover:underline cursor-pointer">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
