@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div>
-      <h1>About Us</h1>
+      <h1 className="text-center text-3xl mt-8 font-bold mb-8">About <span className="text-orange-500">Us</span></h1>
       <p>
         Sweto'h Coconut Sugar is nature’s sweet gift, handcrafted for a
         healthier and tastier lifestyle. Extracted directly from the sap of
@@ -22,6 +22,7 @@ export default function About() {
         meaning it offers a slower, steadier release of energy, making it a
         great option for those keeping an eye on their sugar intake.
       </p>
+      <hr className="mt-6 border-gray-500 opacity-15" />
     </div>
   );
 }
