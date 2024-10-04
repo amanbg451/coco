@@ -3,6 +3,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
 import logo from "../assets/logo.png";
+import sherLogo from "../assets/sherLogo.png";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -104,6 +105,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
+          <img src={sherLogo} alt="" className="w-44 h-44 ml-36 mt-28 rounded-3xl" />
         </motion.div>
       </div>
     </div>

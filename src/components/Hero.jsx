@@ -30,7 +30,7 @@ const Hero = () => {
             sequence={[
               "100% organic",
               1000,
-              "Glutan Free",
+              "Gluten Free",
               1000,
               "Health is Happiness",
               1000,
@@ -68,7 +68,7 @@ const Hero = () => {
             </motion.button>
 
             <div className="flex gap-6 flex-row text-4xl md:text-5xl text-blue-800 z-20">
-              <motion.a whileHover={{ scale: 1.2 }} href="#">
+              <motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/company/sweto-h/" target="_blank">
                 <AiOutlineLinkedin />
               </motion.a>
 
